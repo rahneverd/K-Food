@@ -700,6 +700,7 @@
 	<script>
 		let navButton = document.getElementById('btn-mobile-nav');
 		navButton.onclick = function (e) {
+			e.preventDefault();
 			if (
 				document.getElementById('header-nav').classList.contains('nav-open')
 			) {
